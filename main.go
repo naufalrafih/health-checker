@@ -16,7 +16,7 @@ func main() {
 			&cli.StringFlag{
 				Name:     "domain",
 				Aliases:  []string{"d"},
-				Usage:    "website domain name",
+				Usage:    "domain name",
 				Required: true,
 			},
 			&cli.StringFlag{
